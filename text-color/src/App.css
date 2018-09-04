@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=vietnamese');
+body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.colorPicker{
+  background-color: #337ab7;
+  color: white;
+}
+.Size{
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+/* .card-header, .list-group{
+  width: 100%;
+} */
+.row{
+  margin: 70px 0;
+}
+.btn{
+  margin: 0 3px;
+}
+.btn-reset{
+  margin-top:10px;
+}
+/* .content{
+  border: 1px solid red;
+} */
+.content-setting{
+  color: #CCC;
+  font-size: 13px;
+  padding: 10px 10px;
+  border: 3px solid red;
+}
+span{
+  padding: 10px 20px;
+  margin: 10px 15px;
+}
+hr{
+  width: 95%;
+}
+.active{
+  border: 2px solid black;
+  transition: 0.5s ;
+}

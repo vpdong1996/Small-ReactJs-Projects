@@ -1,0 +1,69 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#addtask{
+  float:right;
+}
+#addtaskHeader{
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  border-color: #faebcc;
+}
+.weightText{
+  font-weight: 700;
+}
+.btn {
+  color: white;
+  display:inline-block;
+  font-size:16px;
+}
+.btn .fa {
+  font-size:16px
+}
+.btn span {
+  position:relative;
+  top:2px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.ml-15{
+  margin-left: 15px;
+}
+.fa-times-circle:hover{
+  color: red;
+}
+.sort_selected::after{
+  content: '\f00c';
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
